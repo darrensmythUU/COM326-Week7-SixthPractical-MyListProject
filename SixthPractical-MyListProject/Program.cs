@@ -51,5 +51,14 @@
         months.Remove("September");
         months.Remove("November");
         Console.WriteLine($"The length of the months list after removing the requested objects is: {months.Count}.");
+
+        // Task 6 Beginning
+        Console.WriteLine("");
+        Console.WriteLine("---------------------------");
+        Console.WriteLine("Task 6");
+        Console.WriteLine("---------------------------");
+
+        int decemberIndex = months.IndexOf("December");
+        Console.WriteLine($"The index position of December within the months list is: {decemberIndex}.");
     }
 }
