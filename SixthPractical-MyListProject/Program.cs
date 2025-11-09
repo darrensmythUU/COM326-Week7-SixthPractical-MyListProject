@@ -40,5 +40,16 @@
         {
             Console.WriteLine(monthNames[i]);
         }
+
+        // Task 5 Beginning
+        Console.WriteLine("");
+        Console.WriteLine("---------------------------");
+        Console.WriteLine("Task 5");
+        Console.WriteLine("---------------------------");
+
+        Console.WriteLine($"The length of the months list before removing the requested objects is: {months.Count}.");
+        months.Remove("September");
+        months.Remove("November");
+        Console.WriteLine($"The length of the months list after removing the requested objects is: {months.Count}.");
     }
 }
